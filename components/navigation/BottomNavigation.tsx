@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Search from "@/app/assets/icons/search.svg";
-import Heart from "@/app/assets/icons/heart.svg";
-import Home from "@/app/assets/icons/home.svg";
-import Recipt from "@/app/assets/icons/recipt.svg";
-import Smile from "@/app/assets/icons/smile.svg";
+import Search from "@/public/assets/icons/search.svg";
+import Heart from "@/public/assets/icons/heart.svg";
+import Home from "@/public/assets/icons/home.svg";
+import Recipt from "@/public/assets/icons/recipt.svg";
+import Smile from "@/public/assets/icons/smile.svg";
 import Link from "next/link";
 
 type IconType = {

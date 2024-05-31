@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Search from "@/app/assets/icons/search.svg";
-import ArrowDown from "@/app/assets/icons/arrow_down.svg";
-import Square from "@/app/assets/icons/square.svg";
-import Bell from "@/app/assets/icons/bell.svg";
-import Cart from "@/app/assets/icons/cart.svg";
+import Search from "@/public/assets/icons/search.svg";
+import ArrowDown from "@/public/assets/icons/arrow_down.svg";
+import Square from "@/public/assets/icons/square.svg";
+import Bell from "@/public/assets/icons/bell.svg";
+import Cart from "@/public/assets/icons/cart.svg";
 
 export default function TopNavigation() {
   return (
