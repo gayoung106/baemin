@@ -2,6 +2,7 @@ import React from "react";
 import MainCard from "../card/MainCard";
 import { CardType } from "@/app/type/cardType";
 import Beamin from "@/public/images/baemin.jpg";
+import DeliveryCard from "../card/DeliveryCard";
 
 const cardContents: CardType[] = [
   {
@@ -19,13 +20,14 @@ const cardContents: CardType[] = [
 
 const MainSection = () => {
   return (
-    <div className="h-full">
+    <section className="h-full flex flex-col">
       <div className="flex">
         {cardContents.map((value, index) => (
           <MainCard key={index} cardContents={value} />
         ))}
       </div>
-    </div>
+      <DeliveryCard />
+    </section>
   );
 };
 
